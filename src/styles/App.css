@@ -32,8 +32,8 @@ body{
     color: #606060;
     color: #414141;
     font-size: 1rem;
-/*    font-size: 1.125rem;*/
-/*    font-size: 1.5rem;*/
+    font-size: 1.125rem;
+/*    font-size: 1.325rem;*/
 }
 
 .page_row{
@@ -43,7 +43,6 @@ body{
 .page_cell{
     max-width:350px; 
     margin:0 auto;
-/*  padding: 0 10px;*/
 }
 
 .loader {
@@ -69,35 +68,23 @@ body{
 
 /*navbar.................................................*/
 .navbar {
-/*    display: flex;*/
-/*    justify-content: center;*/
     padding-top:1rem;
 }
 
 .navbar_row {
     display: flex;
-/*  justify-content: center;*/
     justify-content: flex-end;
-
-/*    width: 70%;*/
 }
 
 .navbar_links {
     display: flex;
-/*  justify-content: space-between;*/
-
-/*  justify-content: center;*/
-/*    width: 75%;*/
-
     padding-top:1rem;
-
 }
 
 .navbar a, .navbar a:visited{
     border-radius: 2px;
     color: #414141;
     padding:0.8rem;
-/*    font-size: 1.2rem;*/
     text-decoration: none;
     transition: all 0.5s ease 0.0s;
 }
@@ -134,7 +121,6 @@ body{
     border: 1px solid lightgrey;
     border-radius: 2px;
     color: #414141;
-/*    font-size: 1.3rem;*/
     font-size: 1.0rem;
 } 
 
@@ -165,7 +151,6 @@ body{
 }
 
 .select_content{
-/*    width: 47%;*/
     outline: none ;
 }
 
@@ -195,6 +180,5 @@ body{
     justify-content: space-between;
     margin: 0 auto;
     padding:0.8rem;
-/*    width: 75%;*/
     color: #606060
 }
