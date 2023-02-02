@@ -69,8 +69,8 @@ body{
 
 /*navbar.................................................*/
 .navbar {
-    display: flex;
-    justify-content: center;
+/*    display: flex;*/
+/*    justify-content: center;*/
     padding-top:1rem;
 }
 
@@ -83,8 +83,11 @@ body{
 .navbar_links {
     display: flex;
   justify-content: space-between;
-/*    width: 80%;*/
+/*  justify-content: center;*/
+    width: 75%;
+
     padding-top:1rem;
+
 }
 
 .navbar a, .navbar a:visited{
@@ -152,7 +155,7 @@ body{
 }
 
 .rates .select_container{
-    width: 60%;
+    width: 75%;;
     margin: 0 auto;
     padding-left:0.8rem;
 }
@@ -182,6 +185,6 @@ body{
     justify-content: space-between;
     margin: 0 auto;
     padding:0.8rem;
-    width: 60%;
+    width: 75%;
     color: #606060
 }
