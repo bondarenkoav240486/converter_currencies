@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/converter_currencies/static/css/main.742f415a.css",
+    "main.css": "/converter_currencies/static/css/main.e5515925.css",
     "main.js": "/converter_currencies/static/js/main.5b9f9295.js",
     "static/media/Rubik-Regular.svg": "/converter_currencies/static/media/Rubik-Regular.dcf4dad65466574f64c0.svg",
     "static/media/Rubik-Regular.woff": "/converter_currencies/static/media/Rubik-Regular.2e08d8b2a734148487ca.woff",
     "static/media/Rubik-Regular.eot": "/converter_currencies/static/media/Rubik-Regular.ee87f5c096f46798eef4.eot",
     "static/media/Rubik-Regular.ttf": "/converter_currencies/static/media/Rubik-Regular.705a89f52bdf93b960ed.ttf",
     "index.html": "/converter_currencies/index.html",
-    "main.742f415a.css.map": "/converter_currencies/static/css/main.742f415a.css.map",
+    "main.e5515925.css.map": "/converter_currencies/static/css/main.e5515925.css.map",
     "main.5b9f9295.js.map": "/converter_currencies/static/js/main.5b9f9295.js.map"
   },
   "entrypoints": [
-    "static/css/main.742f415a.css",
+    "static/css/main.e5515925.css",
     "static/js/main.5b9f9295.js"
   ]
 }
