@@ -1,5 +1,5 @@
 
-import React
+import React,
         from 'react';
 import {toolkitSlice} from "../store/reducers/toolkitSlice";
 import {useAppDispatch, useAppSelector} from "../hooks/redux";
@@ -18,6 +18,8 @@ const Converter = () => {
         dispatch(setMessageAction(par))
     }
 
+  
+    
     const converterFunction = (e:any) => {
         let arrOfInputWords = e.target.value.split(' ');
         let arrCurrenciesAbbreviations = currencies.map((currency) => {
