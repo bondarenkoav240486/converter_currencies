@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="navbar_row">
             <div className="navbar_links">
                     <Link className="link" to="/converter">КОНВЕРТЕР</Link>
-                    <Link className="link" to="/rates">КУРСИ ВАЛЮТ</Link>
+                    <Link className="link" to="/rates">КУРСИ</Link>
             </div>
         </div >
    </div>
