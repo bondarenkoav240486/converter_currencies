@@ -1,11 +1,18 @@
 
 /*@media screen and (max-width:400px){
+    .navbar_links {
+/*        padding: 0.3rem;*/
+/*        width: 85%;*/
+   /* }
+    .navbar_links a{
+        padding: 0.3rem;
+    }
     .converter input{
         font-size: 1.3rem;
     }
-}
+}*/
 
-@media screen and (max-width:360px){
+/*@media screen and (max-width:360px){
     .converter input{
         font-size: 1.2rem;
     }
@@ -15,4 +22,5 @@
     .converter input{
         font-size: 1.15rem;
     }
-}*/
+}
+*/
