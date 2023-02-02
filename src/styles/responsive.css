@@ -1,21 +1,18 @@
 
-@media screen and (max-width:400px){
-    html{
-/*        font-size: 80%; */
-    }
+/*@media screen and (max-width:400px){
     .converter input{
-        font-size: .8rem;
+        font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width:360px){
     .converter input{
-        font-size: .7rem;
+        font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:325px){
     .converter input{
-        font-size: .65rem;
+        font-size: 1.15rem;
     }
-}
+}*/

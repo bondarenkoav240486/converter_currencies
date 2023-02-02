@@ -24,7 +24,7 @@ const initialState: СurrencyState = {
                     txt:'Українська гривня',
                     exchangedate:''
                 },
-    message: '',             
+    message: 'введіть данні у форматі: 15 usd in uah',             
 }
 
 export const toolkitSlice = createSlice({

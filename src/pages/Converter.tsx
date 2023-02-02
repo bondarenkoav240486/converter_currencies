@@ -4,7 +4,6 @@ import React
 import {toolkitSlice} from "../store/reducers/toolkitSlice";
 import {useAppDispatch, useAppSelector} from "../hooks/redux";
 import Loader from "../components/UI/Loader/Loader";
-
 import {
         setMessageAction, 
     } from "../store/reducers/toolkitSlice";
@@ -34,7 +33,7 @@ const Converter = () => {
         ) { 
            e.target.value=''
         } else {
-           setMessage('')
+           // setMessage('')
         }
 
     
@@ -104,9 +103,9 @@ const Converter = () => {
         <div className="converter">
             <input 
                 onChange = {(e)=>converterFunction(e)} 
-                onBlur = { ()=>{setMessage('')} } 
+                // onBlur = { ()=>{setMessage('')} } 
                 onFocus = {(e)=>converterFunction(e)}
-                placeholder='введіть данні у форматі: 15 usd in uah' 
+                // placeholder='введіть данні у форматі: 15 usd in uah' 
             />
             <div className="info">
                 {message}

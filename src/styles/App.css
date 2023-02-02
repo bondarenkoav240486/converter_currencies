@@ -33,6 +33,7 @@ body{
     color: #414141;
     font-size: 1rem;
     font-size: 1.125rem;
+    font-size: 1.5rem;
 }
 
 .page_row{
@@ -65,32 +66,47 @@ body{
     }
 }
 
+
+/*navbar.................................................*/
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top:1rem;
+}
+
+.navbar_row {
+    display: flex;
+  justify-content: center;
+    width: 70%;
 }
 
 .navbar_links {
     display: flex;
-    flex-direction: row;
+  justify-content: space-between;
+    width: 80%;
+    padding-top:1rem;
 }
 
 .navbar a, .navbar a:visited{
     border-radius: 2px;
     color: #414141;
     padding:0.8rem;
-    font-size: 1.2rem;
+/*    font-size: 1.2rem;*/
     text-decoration: none;
     transition: all 0.5s ease 0.0s;
 }
 
 .navbar a:hover{
     color:#fff;
-    background:lightgrey;
     background:lightblue;
 }
 
+.navbar a.elect {
+    color:#fff;
+    background:lightblue;
+}
+
+/*message_about_error.................................................*/
 .message_about_error{
     width: 90%;
     margin: 0 auto;
@@ -112,7 +128,7 @@ body{
     border: 1px solid lightgrey;
     border-radius: 2px;
     color: #414141;
-    font-size: 1rem;
+    font-size: 1.3rem;
 } 
 
 .converter input:hover,
@@ -129,6 +145,8 @@ body{
     text-align: center; 
 }
 
+
+/*rates.................................................*/
 .rates{
     padding-top: 1rem;
 }
@@ -150,7 +168,7 @@ body{
     outline: none;
     color: grey;
     transition: all .5s ease 0.0s;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .rates .list{
