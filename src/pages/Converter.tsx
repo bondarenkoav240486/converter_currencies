@@ -1,5 +1,5 @@
 
-import React,
+import React
         from 'react';
 import {toolkitSlice} from "../store/reducers/toolkitSlice";
 import {useAppDispatch, useAppSelector} from "../hooks/redux";
