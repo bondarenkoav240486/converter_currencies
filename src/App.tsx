@@ -31,21 +31,25 @@ function App() {
             <HashRouter>
                 <Navbar />
                 {
-                isLoading 
-                ?  
-                <Loader/>
-                :
-                 error != 'no error'
-                    ?
-                    <div className='message_about_error'>
-                        Виникла помилка або немає
-                         з'єднання. Спробуйте ще раз.
-                    </div>     
-                         
+                    isLoading 
+                    ?  
+                        <Loader/>
                     :
-                <AppRouter />
+                        error != 'no error'
+                        ?
+                            <div className='message_about_error'>
+                                <p>
+                                    Виникла помилка або немає
+                                    з'єднання. Спробуйте ще раз.
+                                </p>
+                                <br/>
+                                <p>
+                                    {error}
+                                </p>
+                            </div>     
+                        :
+                            <AppRouter />
                 }    
-
             </HashRouter>
         </div>
     );

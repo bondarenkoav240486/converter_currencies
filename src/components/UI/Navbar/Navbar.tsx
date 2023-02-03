@@ -6,15 +6,12 @@ const Navbar = () => {
 
     let NodeListLinnks = document.querySelectorAll('a');
     let arrLinnks = Array.from(NodeListLinnks);
-    // arrLinnks.forEach((link)=>{
         const letMarkElectLink = (e:any)=>{
             arrLinnks.forEach((elem)=>{
                 elem.classList.remove('elect')
             })
             e.target.classList.add('elect')
         }
-    // })
-    console.log(arrLinnks)
 
   return (
     <div className="navbar ">

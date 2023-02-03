@@ -37,7 +37,7 @@ body{
 }
 
 .page_row{
-    padding: 0 1rem ;
+    padding:  1rem ;
 }
 
 .page_cell{
@@ -54,6 +54,11 @@ body{
     border: 1px solid lightblue;
     border-right: none;
     animation: rotate 2s infinite linear;
+}
+
+.message_about_error{
+    padding-top: 2rem;
+    text-align: center;
 }
 
 @keyframes rotate {
@@ -114,7 +119,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding-top: 2rem;
 }
 
 .converter input{
@@ -149,7 +154,6 @@ body{
 }
 
 .rates .select_container{
-/*    width: 75%;*/
     margin: 0 auto;
     padding-left:0.8rem;
 }
@@ -169,7 +173,6 @@ body{
     border: none;
     outline: none;
     color: grey;
-    transition: all .5s ease 0.0s;
 /*    font-size: 1.0rem;*/
     font-size: 1.125rem;
 }

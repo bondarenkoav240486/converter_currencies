@@ -17,8 +17,6 @@ const Converter = () => {
     const setMessage = (par:string) => {
         dispatch(setMessageAction(par))
     }
-
-  
     
     const converterFunction = (e:any) => {
         let arrOfInputWords = e.target.value.split(' ');
@@ -34,9 +32,7 @@ const Converter = () => {
             arrOfInputWords[0] === ""
         ) { 
            e.target.value=''
-        } else {
-           // setMessage('')
-        }
+        } 
 
     
         if (  
@@ -105,9 +101,8 @@ const Converter = () => {
         <div className="converter">
             <input 
                 onChange = {(e)=>converterFunction(e)} 
-                // onBlur = { ()=>{setMessage('')} } 
                 onFocus = {(e)=>converterFunction(e)}
-                // placeholder='введіть данні у форматі: 15 usd in uah' 
+                placeholder='введіть данні у форматі: 15 usd in uah' 
             />
             <div className="info">
                 {message}
